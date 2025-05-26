@@ -221,7 +221,7 @@ int main(int argc, char** argv)
   }
   catch(std::exception& e)
   {
-    fprintf(stderr, e.what());
+    fprintf(stderr, "%s", e.what());
     fprintf(stderr, "\n");
     return 1;
   }
