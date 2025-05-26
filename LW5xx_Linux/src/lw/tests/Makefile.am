@@ -27,13 +27,12 @@ tests_SOURCES = \
     ../../common/tests/MOCK_PrintEnvironment.h \
     ../../common/tests/TestCommon.cpp \
     ../../common/tests/TestCommon.h \
-    ../../common/DummyLanguageMonitor.cpp \
     ../../common/DummyLanguageMonitor.h \
-    ../LabelWriterLanguageMonitor.cpp \
-    ../LabelWriterLanguageMonitor.h \
-    ../LabelWriterDriver.cpp \
-    ../CupsFilterLabelWriter.cpp \
-    ../CupsFilterLabelWriter.h \
+    ../LabelWriterDriverInitializer.h \
+    ../LabelWriterDriverInitializer.cpp \
+    ../LabelWriterLanguageMonitorV2.cpp \
+    ../LabelWriterLanguageMonitorV2.h \
+    ../LabelWriterDriverV2.cpp \
     TestLabelWriterDriver.cpp \
     TestLabelWriterDriver.h  \
     TestLabelWriterFilter.cpp \
