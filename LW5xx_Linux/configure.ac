@@ -77,7 +77,7 @@ AC_SUBST(cups_cflags)
 warning_flags="-Wall -Wno-unknown-pragmas"
 debug_flags=""
 optimization_flags="-O2"
-CXXFLAGS="${optimization_flags} ${warning_flags} ${debug_flags} ${cups_cflags}"
+CXXFLAGS+=" ${optimization_flags} ${warning_flags} ${debug_flags} ${cups_cflags}"
 
 AC_CHECK_LIB(cups, cupsMarkOptions, , AC_ERROR([Can't find cups library]))
 AC_CHECK_LIB(cupsimage, cupsRasterReadHeader, , AC_ERROR([Can't find cupsimage library]))
